@@ -15,10 +15,10 @@ import com.alexbleasdale.util.db.JDBCUtil;
 import com.alexbleasdale.util.string.StringUtils;
 import com.alexbleasdale.util.xml.XmlPrettyPrinter;
 
-public class JDBCXQueryCreateRecordExample {
+public class JDBCCreateRecordExample {
 
 	private static final Log LOG = LogFactory
-			.getLog(JDBCXQueryCreateRecordExample.class);
+			.getLog(JDBCCreateRecordExample.class);
 	public static XmlPrettyPrinter xpp;
 
 	public static void main(String[] args) throws SQLException, IOException,
