@@ -20,7 +20,6 @@ public class JDBCXQueryReadExample {
 
 	private static final Log LOG = LogFactory
 			.getLog(JDBCXQueryReadExample.class);
-	public static XmlPrettyPrinter xpp;
 
 	/*
 	 * 
@@ -39,9 +38,7 @@ public class JDBCXQueryReadExample {
 		// DriverManager.getConnection("jdbc:sqlserver://;integratedSecurity=true;",
 		// pro);
 
-		if (xpp == null) {
-			xpp = new XmlPrettyPrinter();
-		}
+		XmlPrettyPrinter xpp = new XmlPrettyPrinter();
 
 		Connection conn = DriverManager
 				.getConnection("jdbc:sqlserver://192.168.0.196:1433;databaseName=hib-test;user=db_user;password=s3cr3t;");// datasource.getConnection();

@@ -10,3 +10,4 @@ CREATE TABLE xmlData(
 ) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
+
