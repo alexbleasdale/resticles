@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<customer FirstName="Example" LastName="Person" Zipcode="91126" status="current">
+	<order ID="12221" Date="July 1, 2006">Laptop</order>
+</customer>

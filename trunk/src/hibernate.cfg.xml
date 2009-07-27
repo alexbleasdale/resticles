@@ -14,7 +14,7 @@
 	<!-- End MySQL hibernate credentials -->
 	
 	<!-- SQL Server hibernate credentials -->
-	<property name="connection.url">jdbc:sqlserver://192.168.0.196:1433;databaseName=hib-test;selectMethod=cursor</property>
+	<property name="connection.url">jdbc:sqlserver://192.168.0.196:1433;databaseName=hib-test</property>
     <property name="connection.username">db_user</property>
     <property name="connection.password">s3cr3t</property>
     
